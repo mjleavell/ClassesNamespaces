@@ -38,9 +38,11 @@ namespace ClassesNamespaces
             //    Type = CandyType.Taffy,
             //};
 
-            var taffy = new Candy("Banana", "Banana Taffy", CandyType.Taffy);
+            var taffy = new Candy("Banana", "Banana Saltwater Taffy", CandyType.Taffy);
 
-            taffy.SetRating(1);
+            taffy.SetRating(1, "It is average");
+
+            Console.WriteLine(taffy);
 
             Console.ReadLine();
         }
