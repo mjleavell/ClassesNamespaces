@@ -1,4 +1,7 @@
-﻿using System;
+﻿using ClassesNamespaces.Legos;
+using ClassesNamespaces.Legos.Heads;
+using ClassesNamespaces.Legos.Torsos;
+using System;
 
 namespace ClassesNamespaces
 {
@@ -42,7 +45,19 @@ namespace ClassesNamespaces
 
             taffy.SetRating(1, "It is average");
 
-            Console.WriteLine(taffy);
+            Console.WriteLine(taffy.ToString());
+
+            var myDogHead = new Dog();
+            myDogHead.Talk();
+            var martinHead = new Bald();
+            var myAstronautHead = new Astronaut();
+
+            var fitTorso = new FitTorso(2, Sex.Male, Colors.Freckles);
+            fitTorso.Crunch(12);
+
+            var minifigure = new MiniFigure(martinHead, fitTorso);
+            minifigure.Greet();
+
 
             Console.ReadLine();
         }
