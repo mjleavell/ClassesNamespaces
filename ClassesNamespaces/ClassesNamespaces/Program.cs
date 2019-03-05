@@ -1,4 +1,6 @@
-﻿using ClassesNamespaces.Legos.Heads;
+﻿using ClassesNamespaces.Legos;
+using ClassesNamespaces.Legos.Heads;
+using ClassesNamespaces.Legos.Torsos;
 using System;
 
 namespace ClassesNamespaces
@@ -46,8 +48,15 @@ namespace ClassesNamespaces
             Console.WriteLine(taffy.ToString());
 
             var myDogHead = new Dog();
-            var myBaldHead = new Bald();
+            myDogHead.Talk();
+            var martinHead = new Bald();
             var myAstronautHead = new Astronaut();
+
+            var fitTorso = new FitTorso(2, Sex.Male, Colors.Freckles);
+            fitTorso.Crunch(12);
+
+            var minifigure = new MiniFigure(martinHead, fitTorso);
+            minifigure.Greet();
 
 
             Console.ReadLine();

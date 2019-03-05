@@ -8,8 +8,19 @@ namespace ClassesNamespaces.Legos.Heads
     // it is solely meant to be inherited...basically a template
     abstract class Head
     {
-        public HairLength HairLength { get; set; }
-        public Colors Color { get; set; }
-        public string EarSize { get; set; }
+        public HairLength HairLength { get; protected set; }
+        public Colors Color { get; protected set; }
+        public string EarSize { get; protected set; }
+
+        // virtual and overrides act as a pair
+        public virtual string Talk()
+        {
+            return "I'm a talking head";
+        }
+
+        public string Chew()
+        {
+            return "I'm chewing my food becuase I'm hungry";
+        }
     }
 }

@@ -7,12 +7,12 @@ namespace ClassesNamespaces.Legos.Heads
     class Dog : Head
     {
         // ------------ METHODS ------------
-        public string Talk()
-        {
-            return "Bark! I'm a dog head....";
-        }
+        //public override string Talk()
+        //{
+        //    return "Bark! I'm a dog head....";
+        //}
 
-        public string Taste()
+        public string Lick()
         {
             return "Tastes like human!";
         }

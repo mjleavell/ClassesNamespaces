@@ -8,7 +8,7 @@ namespace ClassesNamespaces.Legos.Heads
     {
         public List<string> Accessories { get; set; }
 
-        public string Talk()
+        public override string Talk()
         {
             return $"Houston, we have a problem. I have {HairLength} " + 
                 $"long hair and I'm {Color} and my ears are {EarSize}";

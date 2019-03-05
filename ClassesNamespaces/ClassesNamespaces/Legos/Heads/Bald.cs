@@ -20,18 +20,10 @@ namespace ClassesNamespaces.Legos.Heads
             HairLength = HairLength.CompletelyBald;
         }
 
-        public string Talk()
+        public override string Talk()
         {
             return "I pity the fool!";
         }
-    }
-
-    internal enum Colors
-    {
-        Yellow,
-        Red,
-        Freckles,
-        Tan
     }
 
     internal enum HairLength
