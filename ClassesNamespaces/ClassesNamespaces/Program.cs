@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassesNamespaces.Legos.Heads;
+using System;
 
 namespace ClassesNamespaces
 {
@@ -42,7 +43,12 @@ namespace ClassesNamespaces
 
             taffy.SetRating(1, "It is average");
 
-            Console.WriteLine(taffy);
+            Console.WriteLine(taffy.ToString());
+
+            var myDogHead = new Dog();
+            var myBaldHead = new Bald();
+            var myAstronautHead = new Astronaut();
+
 
             Console.ReadLine();
         }
