@@ -13,7 +13,6 @@ namespace ClassesNamespaces.Legos
         public Head Head { get; set; }
         public Torso Body { get; set; }
         public LegsBase Legs { get; set; }
-        // Legs
 
         // Constructors --- what does this file have to have in order to create the minifigure
         // anything that is a head or is a torso can be passed in
@@ -30,6 +29,7 @@ namespace ClassesNamespaces.Legos
         {
             Body.Wave();
             Head.Talk();
+            Legs.Walk();
         }
     }
 }
