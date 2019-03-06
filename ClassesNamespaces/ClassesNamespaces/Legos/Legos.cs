@@ -10,6 +10,7 @@ namespace ClassesNamespaces.Legos
             Red,
             Freckles,
             Tan,
-            Bone
+            Bone,
+            Orange
         }
 }

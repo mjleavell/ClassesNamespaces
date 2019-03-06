@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassesNamespaces.Legos.Heads
 {
-    class Astronaut : Head
+    class AstronautHead : Head
     {
         public List<string> Accessories { get; set; }
 
