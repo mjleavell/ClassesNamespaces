@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassesNamespaces.Legos.Legs
 {
-    class LegsBase
+    abstract class LegsBase
     {
         public bool Hairy { get; set; }
         public Colors Color { get; set; }

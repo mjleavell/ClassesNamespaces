@@ -58,7 +58,6 @@ namespace ClassesNamespaces
             fitTorso.Crunch(12);
 
             var adamsLegs = new OrangeLegs(Length.Short);
-            adamsLegs.Jump();
 
             var minifigure = new MiniFigure("Adam", astronaught, fitTorso, adamsLegs);
 
