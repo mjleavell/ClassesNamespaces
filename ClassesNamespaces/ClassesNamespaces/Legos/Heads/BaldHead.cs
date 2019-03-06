@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassesNamespaces.Legos.Heads
 {
-    class Bald : Head
+    class BaldHead : Head
     {
         // ------------ PROPERTIES ------------
         public int ShineLevel { get; set; }

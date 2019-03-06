@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassesNamespaces.Legos.Heads
 {
-    class Dog : Head
+    class DogHead : Head
     {
         // ------------ METHODS ------------
         //public override string Talk()

@@ -18,6 +18,7 @@ namespace ClassesNamespaces.Legos.Torsos
 
         public override void Wave()
         {
+            // base is referring to the parent that this file is inheriting from (Torso)
             base.Wave();
             Console.WriteLine("(ツ)_/¯ ");
         }

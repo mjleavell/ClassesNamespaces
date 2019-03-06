@@ -8,7 +8,6 @@ namespace ClassesNamespaces.Legos.Torsos
     {
         private Sex shrug;
         private Colors bone;
-        private string v;
 
         public int NumberOfArms { get; protected set; }
         public string FitnessOfAbdomen { get; protected set; }
@@ -27,7 +26,6 @@ namespace ClassesNamespaces.Legos.Torsos
         {
             this.shrug = shrug;
             this.bone = bone;
-            this.v = v;
         }
 
         public virtual void Wave()

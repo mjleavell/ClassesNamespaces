@@ -1,5 +1,6 @@
 ﻿using ClassesNamespaces.Legos;
 using ClassesNamespaces.Legos.Heads;
+using ClassesNamespaces.Legos.Legs;
 using ClassesNamespaces.Legos.Torsos;
 using System;
 
@@ -41,21 +42,26 @@ namespace ClassesNamespaces
             //    Type = CandyType.Taffy,
             //};
 
-            var taffy = new Candy("Banana", "Banana Saltwater Taffy", CandyType.Taffy);
+            //var taffy = new Candy("Banana", "Banana Saltwater Taffy", CandyType.Taffy);
 
-            taffy.SetRating(1, "It is average");
+            //taffy.SetRating(1, "It is average");
 
-            Console.WriteLine(taffy.ToString());
+            //Console.WriteLine(taffy.ToString());
 
-            var myDogHead = new Dog();
+            var myDogHead = new DogHead();
             myDogHead.Talk();
-            var martinHead = new Bald();
-            var myAstronautHead = new Astronaut();
+
+            var martinHead = new BaldHead();
+            var astronaught = new AstronautHead();
 
             var fitTorso = new FitTorso(2, Sex.Male, Colors.Freckles);
             fitTorso.Crunch(12);
 
-            var minifigure = new MiniFigure(martinHead, fitTorso);
+            var adamsLegs = new OrangeLegs(Length.Short);
+            adamsLegs.Jump();
+
+            var minifigure = new MiniFigure("Adam", astronaught, fitTorso, adamsLegs);
+
             minifigure.Greet();
 
 
